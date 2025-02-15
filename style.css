@@ -1,0 +1,80 @@
+/* Smooth gradient background */
+body {
+    background: linear-gradient(to bottom, #f8f9fa, #e3e7ed);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff7b00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Devlog box */
+.devlog {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.devlog:hover {
+    transform: scale(1.02);
+}
+
+/* Image styling */
+.devlog img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Title styling */
+.devlog h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4a4a;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff3e6;
+    margin: 8px 0;
+    padding: 12px;
+    border-left: 5px solid #ff7b00;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+ul li:hover {
+    background: #ffd9b3;
+    transform: translateX(5px);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666;
+}
+
+
