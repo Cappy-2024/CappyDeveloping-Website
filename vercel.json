@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/clicker", "destination": "/clicker/index.html" }
+  ]
+}
