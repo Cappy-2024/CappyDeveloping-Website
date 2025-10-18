@@ -154,3 +154,4 @@ document.getElementById("upgradePassive").addEventListener("click", () => {
 updateUI();
 
 
+
