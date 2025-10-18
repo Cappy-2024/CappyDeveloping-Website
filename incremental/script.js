@@ -38,7 +38,7 @@ function saveGame() {
 }
 
 function loadGame() {
-  const data = JSON.parse(localStorage.getItem("leafClickerSave"));
+  const data = JSON.parse(localStorage.getItem("leafClickerSavev2"));
   if (data) {
     leaves = data.leaves || 0;
     leafValue = data.leafValue || 1;
@@ -152,5 +152,6 @@ document.getElementById("upgradePassive").addEventListener("click", () => {
 });
 
 updateUI();
+
 
 
