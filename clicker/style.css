@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  background: url("assets/bg.jpg") center/cover no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#top-bar {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+
+#leaf-area {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.leaf {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.leaf:hover {
+  transform: scale(1.2);
+}
+
+#shop {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #66bb6a;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
